@@ -13,6 +13,8 @@
 		8BB90D2620CAE33C0061841C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90D2520CAE33C0061841C /* Assets.xcassets */; };
 		8BB90D2920CAE33C0061841C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90D2720CAE33C0061841C /* LaunchScreen.storyboard */; };
 		8BB90D3420CAE33C0061841C /* RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3320CAE33C0061841C /* RegexTests.swift */; };
+		8BB90D3F20CAE3740061841C /* String+RegexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */; };
+		8BE85C5A20CBC81000B42FEB /* Strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8BE85C5920CBC81000B42FEB /* Strings.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8BB90D2F20CAE33C0061841C /* RegexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB90D3320CAE33C0061841C /* RegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTests.swift; sourceTree = "<group>"; };
 		8BB90D3520CAE33C0061841C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RegexUtils.swift"; sourceTree = "<group>"; };
+		8BE85C5920CBC81000B42FEB /* Strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Strings.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				8BB90D2520CAE33C0061841C /* Assets.xcassets */,
 				8BB90D2720CAE33C0061841C /* LaunchScreen.storyboard */,
 				8BB90D2A20CAE33C0061841C /* Info.plist */,
+				8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */,
+				8BE85C5920CBC81000B42FEB /* Strings.txt */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -141,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Avantiic;
 				TargetAttributes = {
 					8BB90D1A20CAE33C0061841C = {
@@ -182,6 +188,7 @@
 				8BB90D2920CAE33C0061841C /* LaunchScreen.storyboard in Resources */,
 				8BB90D2620CAE33C0061841C /* Assets.xcassets in Resources */,
 				8BB90D2420CAE33C0061841C /* Main.storyboard in Resources */,
+				8BE85C5A20CBC81000B42FEB /* Strings.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +208,7 @@
 			files = (
 				8BB90D2120CAE33C0061841C /* ViewController.swift in Sources */,
 				8BB90D1F20CAE33C0061841C /* AppDelegate.swift in Sources */,
+				8BB90D3F20CAE3740061841C /* String+RegexUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +264,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +272,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +323,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +331,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

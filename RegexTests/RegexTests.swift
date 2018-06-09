@@ -13,24 +13,21 @@ class RegexTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testThatTextContainsEmails() {
+        let string = "Lorem a@domain.com ipsum a.a@my-domain.net dolor sit amet."
+        let matches = string.matches(regex: "\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b")
+        
+        XCTAssertEqual(matches.count, 2, "Number of matches should be two")
+        if matches.count == 2 {
+            XCTAssertEqual(matches.first, "a@domain.com", "First match should be a@domain.com")
+            XCTAssertEqual(matches.last, "a.a@my-domain.net", "Last match should be a.a@my-domain.net")
         }
     }
-    
 }
