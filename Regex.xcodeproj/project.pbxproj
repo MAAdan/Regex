@@ -12,9 +12,10 @@
 		8BB90D2420CAE33C0061841C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90D2220CAE33C0061841C /* Main.storyboard */; };
 		8BB90D2620CAE33C0061841C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90D2520CAE33C0061841C /* Assets.xcassets */; };
 		8BB90D2920CAE33C0061841C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90D2720CAE33C0061841C /* LaunchScreen.storyboard */; };
-		8BB90D3420CAE33C0061841C /* RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3320CAE33C0061841C /* RegexTests.swift */; };
+		8BB90D3420CAE33C0061841C /* SplitRegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3320CAE33C0061841C /* SplitRegexTests.swift */; };
 		8BB90D3F20CAE3740061841C /* String+RegexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */; };
-		8BE85C5A20CBC81000B42FEB /* Strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8BE85C5920CBC81000B42FEB /* Strings.txt */; };
+		8BE85C5C20CCEC2A00B42FEB /* MatchRegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE85C5B20CCEC2A00B42FEB /* MatchRegexTests.swift */; };
+		8BE85C5D20CCEC9600B42FEB /* String+RegexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,10 @@
 		8BB90D2820CAE33C0061841C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB90D2A20CAE33C0061841C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB90D2F20CAE33C0061841C /* RegexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB90D3320CAE33C0061841C /* RegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTests.swift; sourceTree = "<group>"; };
+		8BB90D3320CAE33C0061841C /* SplitRegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitRegexTests.swift; sourceTree = "<group>"; };
 		8BB90D3520CAE33C0061841C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RegexUtils.swift"; sourceTree = "<group>"; };
-		8BE85C5920CBC81000B42FEB /* Strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Strings.txt; sourceTree = "<group>"; };
+		8BE85C5B20CCEC2A00B42FEB /* MatchRegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRegexTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +89,6 @@
 				8BB90D2720CAE33C0061841C /* LaunchScreen.storyboard */,
 				8BB90D2A20CAE33C0061841C /* Info.plist */,
 				8BB90D3E20CAE3740061841C /* String+RegexUtils.swift */,
-				8BE85C5920CBC81000B42FEB /* Strings.txt */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -96,8 +96,9 @@
 		8BB90D3220CAE33C0061841C /* RegexTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BB90D3320CAE33C0061841C /* RegexTests.swift */,
 				8BB90D3520CAE33C0061841C /* Info.plist */,
+				8BB90D3320CAE33C0061841C /* SplitRegexTests.swift */,
+				8BE85C5B20CCEC2A00B42FEB /* MatchRegexTests.swift */,
 			);
 			path = RegexTests;
 			sourceTree = "<group>";
@@ -188,7 +189,6 @@
 				8BB90D2920CAE33C0061841C /* LaunchScreen.storyboard in Resources */,
 				8BB90D2620CAE33C0061841C /* Assets.xcassets in Resources */,
 				8BB90D2420CAE33C0061841C /* Main.storyboard in Resources */,
-				8BE85C5A20CBC81000B42FEB /* Strings.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB90D3420CAE33C0061841C /* RegexTests.swift in Sources */,
+				8BB90D3420CAE33C0061841C /* SplitRegexTests.swift in Sources */,
+				8BE85C5C20CCEC2A00B42FEB /* MatchRegexTests.swift in Sources */,
+				8BE85C5D20CCEC9600B42FEB /* String+RegexUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
